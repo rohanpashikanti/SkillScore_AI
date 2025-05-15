@@ -54,10 +54,11 @@ project\_resume/
 ## 🛠️ Installation & Setup
 
 1. Clone the repository
-   ```bash
+   ```
+   bash
    git clone https://github.com/rohanpashikanti/ai-resume-analyser.git
    cd ai-resume-analyser
-```
+   ````
 
 2. Create a virtual environment
 
@@ -65,53 +66,47 @@ project\_resume/
    bash
    python3 -m venv venv
    source venv/bin/activate
-   ```
+   ````
 
 3. Install dependencies
 
    ```
-  bash
+   bash
    pip install -r requirements.txt
-   ```
+   ````
 
 4. Add your Gemini API Key
 
    Open `gemini_utils.py` and set:
 
    ```
-  python
+   python
    GEMINI_API_KEY = "your_actual_api_key"
-   ```
+   ````
 
-5. Run the app
+6. Run the app
 
    ```
    bash
    python app.py
    ```
 
-6. Visit in your browser
+7. Visit in your browser
 
    ```
    http://127.0.0.1:5000/
-   ```
+   ````
 
----
 
 ## 👤 Author
 
 Rohan Pashikanti
 [Portfolio Website](https://rohanpashikanti.github.io)
 
----
-
 ## 📄 License
 
 This project is open-source and available under the MIT License.
 
 ```
-
----
-
 Let me know if you want me to include badges (e.g. Made with Flask, MIT License), deployment instructions (e.g. Render or Vercel), or create a `requirements.txt` for you.
 ```
