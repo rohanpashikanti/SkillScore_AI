@@ -1,11 +1,7 @@
-Here’s a complete `README.md` file you can use for your GitHub project **AI Resume Analyser**:
 
----
 
-### ✅ `README.md`
-
-```markdown
-# 🧠 AI Resume Analyser
+```
+# Skill Score AI
 
 An intelligent, modern web application that analyzes resumes using OCR and Google Gemini API. This project extracts skills, education, and experience from uploaded PDF resumes, then provides AI-generated job recommendations, resume improvement tips, HR-style summaries, and viva questions — all in one elegant interface.
 
