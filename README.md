@@ -44,49 +44,53 @@ project\_resume/
 
 ## ⚙️ Tech Stack
 
-- **Frontend:** HTML, CSS, JavaScript
-- **Backend:** Python Flask
-- **AI:** Google Gemini API (generative language model)
-- **OCR:** Tesseract via `pytesseract` + `pdf2image`
+- Frontend: HTML, CSS, JavaScript
+- Backend: Python Flask
+- AI: Google Gemini API (generative language model)
+- OCR: Tesseract via `pytesseract` + `pdf2image`
 
 ---
 
 ## 🛠️ Installation & Setup
 
-1. **Clone the repository**
+1. Clone the repository
    ```bash
    git clone https://github.com/rohanpashikanti/ai-resume-analyser.git
    cd ai-resume-analyser
-````
+```
 
-2. **Create a virtual environment**
+2. Create a virtual environment
 
-   ```bash
+   ```
+   bash
    python3 -m venv venv
    source venv/bin/activate
    ```
 
-3. **Install dependencies**
+3. Install dependencies
 
-   ```bash
+   ```
+  bash
    pip install -r requirements.txt
    ```
 
-4. **Add your Gemini API Key**
+4. Add your Gemini API Key
 
    Open `gemini_utils.py` and set:
 
-   ```python
+   ```
+  python
    GEMINI_API_KEY = "your_actual_api_key"
    ```
 
-5. **Run the app**
+5. Run the app
 
-   ```bash
+   ```
+   bash
    python app.py
    ```
 
-6. **Visit in your browser**
+6. Visit in your browser
 
    ```
    http://127.0.0.1:5000/
@@ -96,7 +100,7 @@ project\_resume/
 
 ## 👤 Author
 
-**Rohan Pashikanti**
+Rohan Pashikanti
 [Portfolio Website](https://rohanpashikanti.github.io)
 
 ---
